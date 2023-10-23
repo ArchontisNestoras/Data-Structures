@@ -1,0 +1,79 @@
+//Archontis Nestoras 4747
+//Spyridon Chalidias 4830
+
+..>java Parentheses
+Enter input string > [({})]()
+Input string = [({})]() , length = 8
+i = 0, [
+i = 1, (
+i = 2, {
+i = 3, }
+i = 4, )
+i = 5, ]
+i = 6, (
+i = 7, )
+Syntax is correct!
+range = 2,3
+range = 1,4
+range = 0,5
+range = 6,7
+
+..>java Parentheses
+Enter input string > [({}){[]()}]{[()]}
+Input string = [({}){[]()}]{[()]} , length = 18
+i = 0, [
+i = 1, (
+i = 2, {
+i = 3, }
+i = 4, )
+i = 5, {
+i = 6, [
+i = 7, ]
+i = 8, (
+i = 9, )
+i = 10, }
+i = 11, ]
+i = 12, {
+i = 13, [
+i = 14, (
+i = 15, )
+i = 16, ]
+i = 17, }
+Syntax is correct!
+range = 2,3
+range = 1,4
+range = 6,7
+range = 8,9
+range = 5,10
+range = 0,11
+range = 14,15
+range = 13,16
+range = 12,17
+
+..>java Parentheses
+Enter input string > {(})
+Input string = {(}) , length = 4
+i = 0, {
+i = 1, (
+i = 2, }
+Syntax error!
+
+..>java Parentheses
+Enter input string > )(
+Input string = )( , length = 2
+Syntax error!
+
+..>java Parentheses
+Enter input string > [()
+Input string = [() , length = 3
+i = 0, [
+i = 1, (
+i = 2, )
+Syntax error!
+
+..>java Parentheses
+Enter input string > [)(]
+Input string = [)(] , length = 4
+i = 0, [
+i = 1, )
+Syntax error!

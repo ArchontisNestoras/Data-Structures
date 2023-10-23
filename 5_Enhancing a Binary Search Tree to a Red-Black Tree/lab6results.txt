@@ -1,0 +1,91 @@
+//Archontis Nestoras 4747
+//Spyridon Chalidias 4830
+
+..>java BinarySearchTree 16
+Test Binary Search Tree
+number of keys n = 16
+construction time = 0
+Printing binary search tree
+
+                31[1,1]
+        26[2,3]
+                25[1,1]
+23[7,13]
+                        20[1,1]
+                19[5,7]
+                                17[3,3]
+                                                12[1,1]
+                                        10[2,2]
+                        9[4,5]
+                                8[1,1]
+        7[6,9]
+                3[1,1]
+
+tree height = 7
+search time = 0
+
+..>java RedBlackTree 16
+Test Binary Search Tree
+number of keys n = 16
+construction time = 0
+Printing binary search tree
+
+                        31(1,1)[red]
+                26(2,3)[black]
+                        25(1,1)[red]
+        23(3,5)[red]
+                20(1,1)[black]
+19(4,13)[black]
+                        17(1,1)[red]
+                12(2,3)[black]
+                        10(1,1)[red]
+        9(3,7)[red]
+                        8(1,1)[red]
+                7(2,3)[black]
+                        3(1,1)[red]
+
+tree height = 4
+keys in range [4,12] = 5
+search time = 0
+
+..>java BinarySearchTree 1000
+Test Binary Search Tree
+number of keys n = 1000
+construction time = 4
+tree height = 21
+search time = 0
+
+..>java RedBlackTree 1000
+Test Binary Search Tree
+number of keys n = 1000
+construction time = 3
+tree height = 13
+keys in range [250,750] = 209
+search time = 1
+
+..>java TreeMapTest 1000
+Test TreeMap
+number of keys n = 1000
+construction time = 5
+search time = 0
+
+..>java BinarySearchTree 1000000
+Test Binary Search Tree
+number of keys n = 1000000
+construction time = 1235
+tree height = 51
+search time = 748
+
+..>java RedBlackTree 1000000
+Test Binary Search Tree
+number of keys n = 1000000
+construction time = 1292
+tree height = 30
+keys in range [250000,750000] = 196592
+search time = 715
+
+..>java TreeMapTest 1000000
+Test TreeMap
+number of keys n = 1000000
+construction time = 959
+search time = 641

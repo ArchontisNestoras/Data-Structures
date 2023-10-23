@@ -1,0 +1,179 @@
+//Archontis Nestoras 4747
+//Spyridon Chalidias 4830
+
+..>java MinPQ
+Test Min Priority Queue implemented with a Binary Heap
+
+Inserting keys
+
+insert item a key 60
+insert item b key 48
+insert item c key 29
+insert item d key 47
+insert item e key 15
+insert item f key 53
+insert item g key 91
+insert item h key 61
+insert item i key 19
+insert item j key 54
+insert item k key 77
+insert item l key 77
+insert item m key 73
+insert item n key 62
+insert item o key 95
+insert item p key 44
+insert item q key 84
+insert item r key 75
+insert item s key 41
+insert item t key 20
+insert item u key 43
+insert item v key 88
+insert item w key 24
+insert item x key 47
+insert item y key 52
+insert item z key 60
+
+Deleting minimum keys
+
+item e key 15
+item i key 19
+item t key 20
+item w key 24
+item c key 29
+item s key 41
+item u key 43
+item p key 44
+item d key 47
+item x key 47
+item b key 48
+item y key 52
+item f key 53
+item j key 54
+item z key 60
+item a key 60
+item h key 61
+item n key 62
+item m key 73
+item r key 75
+item l key 77
+item k key 77
+item q key 84
+item v key 88
+item g key 91
+item o key 95
+total time = 24
+
+
+..>java Huffman < TomSawyerB.txt
+Test Huffman coding
+letter = a, count = 23529
+letter = b, count = 4969
+letter = c, count = 6517
+letter = d, count = 14879
+letter = e, count = 35698
+letter = f, count = 6027
+letter = g, count = 6615
+letter = h, count = 19608
+letter = i, count = 18849
+letter = j, count = 639
+letter = k, count = 3030
+letter = l, count = 12163
+letter = m, count = 7159
+letter = n, count = 20200
+letter = o, count = 23265
+letter = p, count = 4692
+letter = q, count = 178
+letter = r, count = 15298
+letter = s, count = 17761
+letter = t, count = 28898
+letter = u, count = 8959
+letter = v, count = 2374
+letter = w, count = 8059
+letter = x, count = 351
+letter = y, count = 6746
+letter = z, count = 151
+
+letter a, code = 0001
+letter b, code = 001110
+letter c, code = 000010
+letter d, code = 1110
+letter e, code = 100
+letter f, code = 000011
+letter g, code = 000001
+letter h, code = 0101
+letter i, code = 0110
+letter j, code = 000000011
+letter k, code = 0000001
+letter l, code = 00110
+letter m, code = 11110
+letter n, code = 0100
+letter o, code = 0010
+letter p, code = 001111
+letter q, code = 00000001010
+letter r, code = 1011
+letter s, code = 0111
+letter t, code = 110
+letter u, code = 10100
+letter v, code = 00000000
+letter w, code = 10101
+letter x, code = 0000000100
+letter y, code = 11111
+letter z, code = 00000001011
+total running time = 70
+
+..>java Huffman < words.txt
+Test Huffman coding
+letter = a, count = 12739
+letter = b, count = 3281
+letter = c, count = 6949
+letter = d, count = 4669
+letter = e, count = 16694
+letter = f, count = 2288
+letter = g, count = 3356
+letter = h, count = 4008
+letter = i, count = 11639
+letter = j, count = 265
+letter = k, count = 1401
+letter = l, count = 8009
+letter = m, count = 4725
+letter = n, count = 9325
+letter = o, count = 10541
+letter = p, count = 4921
+letter = q, count = 336
+letter = r, count = 10982
+letter = s, count = 8185
+letter = t, count = 11139
+letter = u, count = 5451
+letter = v, count = 1559
+letter = w, count = 1528
+letter = x, count = 538
+letter = y, count = 2980
+letter = z, count = 286
+
+letter a, code = 111
+letter b, code = 000001
+letter c, code = 1101
+letter d, code = 10000
+letter e, code = 101
+letter f, code = 010011
+letter g, code = 000000
+letter h, code = 10001
+letter i, code = 0001
+letter j, code = 010010011
+letter k, code = 0100101
+letter l, code = 1100
+letter m, code = 01101
+letter n, code = 0111
+letter o, code = 0101
+letter p, code = 01100
+letter q, code = 010010001
+letter r, code = 0011
+letter s, code = 1001
+letter t, code = 0010
+letter u, code = 01000
+letter v, code = 0000100
+letter w, code = 0000101
+letter x, code = 010010000
+letter y, code = 000011
+letter z, code = 010010010
+total running time = 54

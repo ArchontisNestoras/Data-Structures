@@ -1,0 +1,3 @@
+Determining Bipartiteness in Graphs Using BFS and FIFO Data Structures
+
+The provided BipartiteGraph.java program aims to determine the bipartiteness of a given graph, 𝐺 = (𝑉, 𝐸), with 𝑉 nodes and 𝐸 edges. It employs the breadth-first search (BFS) algorithm to segregate nodes into "white" and "black" subsets. A graph is considered bipartite if it lacks cycles of odd length. During the BFS traversal, if an edge connects nodes of the same color, it indicates an odd-length cycle, rendering the graph non-bipartite. The program relies on a FIFO queue data structure for efficient node traversal. In addition, it provides methods such as bfs(int 𝑠), findOddCycle(int 𝑣, int 𝑢), and printCycle(Queue<Integer> 𝐶) for these operations.

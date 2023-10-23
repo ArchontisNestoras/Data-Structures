@@ -1,0 +1,3 @@
+Text Compression with Huffman Encoding
+
+In the "Huffman.java" program, we explore a smart way to compress text using Huffman encoding. This technique involves creating a list of characters (like letters) and how often they appear in the text. The program cleverly organizes this data using a special data structure called a minimum priority queue (MinPQ). The MinPQ keeps track of characters with their frequencies, making it easier to create a compact binary code for each character. This way, we can represent common characters with shorter codes, resulting in efficient text compression. Huffman encoding is a neat tool for saving space when storing or transmitting text data.

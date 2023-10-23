@@ -1,0 +1,127 @@
+//Archontis Nestoras 4747
+//Spyridon Chalidias 4830
+
+..>java SimpleUnionFind
+
+Test SimpleUnionFind
+Simple Set Union Data Structure
+Pi[1]=2
+Pi[2]=3
+Pi[3]=4
+Pi[4]=4
+Pi[5]=6
+Pi[6]=7
+Pi[7]=8
+Pi[8]=4
+Pi[9]=10
+Pi[10]=11
+Pi[11]=12
+Pi[12]=12
+Pi[13]=14
+Pi[14]=15
+Pi[15]=16
+Pi[16]=12
+Simple Set Union Data Structure
+Pi[1]=2
+Pi[2]=3
+Pi[3]=4
+Pi[4]=4
+Pi[5]=6
+Pi[6]=7
+Pi[7]=8
+Pi[8]=4
+Pi[9]=10
+Pi[10]=11
+Pi[11]=12
+Pi[12]=4
+Pi[13]=14
+Pi[14]=15
+Pi[15]=16
+Pi[16]=12
+
+
+..>java UnionFind
+
+Test UnionFind
+Set Union Data Structure
+Pi[1]=2
+Pi[2]=2
+size[2]=8
+Pi[3]=2
+Pi[4]=2
+Pi[5]=6
+Pi[6]=2
+Pi[7]=6
+Pi[8]=6
+Pi[9]=10
+Pi[10]=10
+size[10]=8
+Pi[11]=10
+Pi[12]=10
+Pi[13]=14
+Pi[14]=10
+Pi[15]=14
+Pi[16]=14
+Set Union Data Structure
+Pi[1]=2
+Pi[2]=2
+size[2]=16
+Pi[3]=2
+Pi[4]=2
+Pi[5]=6
+Pi[6]=2
+Pi[7]=6
+Pi[8]=6
+Pi[9]=10
+Pi[10]=2
+Pi[11]=10
+Pi[12]=10
+Pi[13]=10
+Pi[14]=10
+Pi[15]=14
+Pi[16]=14
+
+..>java RandomUnions 10000
+
+Test SimpleUnionFind
+Number of items = 10000
+number of unites = 47574
+total time = 211
+
+Test UnionFind
+Number of items = 10000
+number of unites = 47574
+total time = 6
+..>java RandomUnions 20000
+
+Test SimpleUnionFind
+Number of items = 20000
+number of unites = 92358
+total time = 1312
+
+Test UnionFind
+Number of items = 20000
+number of unites = 92358
+total time = 6
+..>java RandomUnions 40000
+
+Test SimpleUnionFind
+Number of items = 40000
+number of unites = 218573
+total time = 8121
+
+Test UnionFind
+Number of items = 40000
+number of unites = 218573
+total time = 12
+..>java RandomUnions 80000
+
+Test SimpleUnionFind
+Number of items = 80000
+number of unites = 413284
+total time = 43685
+
+Test UnionFind
+Number of items = 80000
+number of unites = 413284
+total time = 25

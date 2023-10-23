@@ -1,0 +1,26 @@
+//Archontis Nestoras 4747
+//Spyridon Chalidias 4830
+
+..>javac In.java Queue.java Collection.java BipartiteGraph.java
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+
+..>java BipartiteGraph < smallGraph1.txt
+Input graph is Bipartite!
+
+..>java BipartiteGraph < smallGraph2.txt
+Input graph is NOT Bipartite!
+Odd cycle found
+
+        Cycle: ( 5 4 0 7 6 5 )
+
+
+..>java BipartiteGraph < largeGraph1.txt
+Input graph is Bipartite!
+
+..>java BipartiteGraph < largeGraph2.txt
+Input graph is NOT Bipartite!
+Odd cycle found
+
+        Cycle: ( 688 33 998 0 317 316 891 688 )
